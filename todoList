@@ -1,0 +1,23 @@
+( ) Renomear a aplicação para "React Salário"
+( ) Inserir inputs:{
+ Salário bruto (editável pelo usuário).
+ Base INSS (somente-leitura).
+ Desconto INSS (somente-leitura).
+ Base IRPF (somente-leitura).
+ Desconto IRPF (somente-leitura).
+ Salário líquido (somente-leitura)}
+
+Desconto do INSS {
+ Salário mínimo: R$ 1.045,00	7,5%
+De R$ 1.045,01 a R$ 2.089,60	9%
+De R$ 2.089,61 a R$ 3.134,40	12%
+De R$ 3.134,41 a R$ 6.101,06	14%
+}
+
+Desconto do IRPF{
+Até 1.903,98	0%	0,00
+De 1.903,99 até 2.826,65	7,5%	142,80
+De 2.826,66 até 3.751,05	15%	354,80
+De 3.751,06 até 4.664,68	22,5%	636,13
+Acima de 4.664,69	27,5%	869,36
+}
